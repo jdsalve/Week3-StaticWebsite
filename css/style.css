@@ -9,6 +9,7 @@ body{
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
+    width: 100%;
 }
 
 #logo-img{
@@ -61,4 +62,15 @@ ul li a img{
 
 ul li a span{
     vertical-align: middle;
+}
+
+@media(max-width:483px){
+    .font-tite{
+        font-size: 1em !important;
+    }
+}
+@media(max-width:406px){
+    .font-tite{
+        font-size: .75em !important;
+    }
 }
